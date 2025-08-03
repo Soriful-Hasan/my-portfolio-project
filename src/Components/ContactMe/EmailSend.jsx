@@ -12,11 +12,14 @@ const EmailSend = () => {
     formState: { errors },
     reset,
   } = useForm();
+  const serviceKey = import.meta.env.VITE_SERVICE_KEY;
+  const templateKey = import.meta.env.VITE_TEMPLATE_KEY;
+  const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 
   const onSubmit = (data) => {
     emailjs
-      .send("service_ir0139n", "template_v9c90el", data, {
-        publicKey: "umlTwlQuN7B-MydYN",
+      .send(`${serviceKey}`, `${templateKey}`, data, {
+        publicKey: `${publicKey}`,
       })
       .then(() => {
         Swal.fire({
@@ -36,6 +39,7 @@ const EmailSend = () => {
           showConfirmButton: false,
           timer: 1500,
         });
+        console.log(error);
       });
   };
 

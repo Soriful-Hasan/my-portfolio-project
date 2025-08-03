@@ -18,6 +18,31 @@ import Modal from "./Modal";
 const Projects = () => {
   const projectsData = [
     {
+      name: "Medi Ease",
+      repo_link: "https://github.com/Soriful-Hasan/pix-apps-project",
+      category: "Medical Camp Management System",
+      liveLink: "https://mediease-f28e1.web.app/",
+      challenge_face:
+        "Building MediEase involved multiple challenges. Implementing role-based access and JWT authentication with Firebase Admin SDK required careful security planning. Integrating Stripe for secure payments was complex, especially with real-time validation and handling payment webhooks. Ensuring dashboard analytics were accurate and responsive across different user roles (organizer, participant) demanded robust backend logic and frontend state management. Coordinating frontend and backend deployment separately (Vercel) also introduced CORS and environment variable management complexities.",
+      technology_stack:
+        "MediEase is built with the MERN stack: MongoDB for data storage, Express.js and Node.js for the backend API and business logic, and React.js for the interactive frontend UI. Firebase Authentication is integrated for secure user login, alongside the Firebase Admin SDK on the backend for token verification and role management. Stripe handles secure payments, while JWT ensures protected routes. Tailwind CSS and DaisyUI power the responsive design, with Framer Motion providing smooth animations. Axios is used for frontend-backend communication, and the app is deployed on Vercel (frontend) and Render (backend).",
+
+      improvements_future:
+        "In the future, I plan to implement email notifications for registration and payment confirmations. Enhancing the dashboard with more detailed filters and time-based analytics will improve usability. Real-time updates for camp registration status, and integrating admin moderation for feedback will add value. I also aim to support multi-language UI, add a medical document upload system for participants, and improve mobile performance. Turning MediEase into a PWA and adding SEO optimizations will help reach more users and provide a more professional experience.",
+
+      technology: [
+        { name: "JavaScript", icon: FaJs, color: "#F0DB4F" },
+        { name: "React", icon: FaReact, color: "#61DBFB" },
+        { name: "Node.js", icon: FaNodeJs, color: "#3C873A" },
+        { name: "MongoDB", icon: SiMongodb, color: "#4DB33D" },
+        { name: "Firebase", icon: SiFirebase, color: "#FFCA28" },
+      ],
+      description:
+        "MediEase is a full-stack web application designed to streamline the organization and participation of medical camps. Inspired by real-world healthcare management needs, the platform allows organizers to create and manage camps while participants can register, make secure payments, and submit feedback. With role-based dashboards, analytics, and a clean, responsive interface, MediEase enhances communication, efficiency, and transparency in organizing health events. Built with the MERN stack, Firebase Authentication, and Stripe, the app provides a complete end-to-end solution for medical camp administration and participation.",
+
+      image: "https://i.ibb.co/vCcLJm7Y/image.png",
+    },
+    {
       name: "Find It",
       repo_link: "https://github.com/Soriful-Hasan/find-it-client-project",
       category: "Lost and Found Item Tracker",
@@ -60,27 +85,6 @@ const Projects = () => {
         "In the future, adding real-time chat between roommates could enhance user interaction. Implementing advanced search filters and map integration would improve usability. Enhancing security with role-based access control and multi-factor authentication can strengthen protection. Also, optimizing performance for large data sets and adding mobile app support would make the platform more robust and accessible.",
       liveLink: "https://roommate-finder-45a3b.web.app/",
       image: "https://i.ibb.co/p6kxD3kt/Screenshot-5.png",
-    },
-
-    {
-      name: "Pix Apps",
-      repo_link: "https://github.com/Soriful-Hasan/pix-apps-project",
-      category: "App Showcase & Review Platform",
-      liveLink: "https://pixapps-ed3df.firebaseapp.com/",
-      challenge_face:
-        "While building this project, I faced several challenges. Managing data without a backend was difficult, especially for features like app reviews. Integrating Firebase Authentication securely for user login and review submission was also tricky. Additionally, ensuring a fully responsive layout with smooth dynamic UI interactions required careful planning and testing.",
-      technology_stack:
-        "The project is built using React.js, which provides a dynamic and component-based structure for building interactive user interfaces. For styling, Tailwind CSS is used to create a clean and responsive design efficiently, while DaisyUI enhances it with prebuilt, customizable UI components. Firebase Authentication is integrated to handle secure user login and review submission, eliminating the need for a custom backend and ensuring a smooth authentication process. This stack supports a modern, elegant, and user-friendly frontend experience.",
-      improvements_future:
-        "In the future, I plan to add a backend for better data management and enable features like app submission and review moderation. Enhancing the review system with edit, delete, and star ratings will improve user interaction. I also aim to add search, filters, and dark mode for a smoother user experience. Converting the site into a PWA and adding SEO optimizations will make it more powerful and professional.",
-      technology: [
-        { name: "JavaScript", icon: FaJs, color: "#F0DB4F" },
-        { name: "React", icon: FaReact, color: "#61DBFB" },
-        { name: "Firebase", icon: SiFirebase, color: "#FFCA28" },
-      ],
-      description:
-        "Pix Apps is a modern frontend web application inspired by platforms like the Play Store. It showcases a wide range of apps on the homepage with categorized and visually appealing layouts. Users can explore detailed pages for each app and submit their own reviews. Built using React.js with Tailwind CSS and DaisyUI, the site offers a responsive and elegant UI. Firebase Authentication is integrated to ensure secure user login and review functionality. This project focuses on dynamic UI interactions and real-world user experience design without a backend.",
-      image: "https://i.ibb.co/pv8BrBCj/image.png",
     },
   ];
 
