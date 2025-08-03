@@ -10,7 +10,7 @@ const Hero = () => {
         {/* Text Section */}
         <div className="max-w-3xl space-y-6 flex-1">
           <h2 className="md:text-6xl text-4xl lg:text-7xl font-bold text-gray-900 relative">
-            Full Stack Web Developer
+            MERN Stack Web Developer
           </h2>
 
           <p className="mt-4 text-gray-600 tracking-widest uppercase text-sm">

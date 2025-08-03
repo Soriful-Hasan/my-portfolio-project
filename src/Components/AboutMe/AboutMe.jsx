@@ -19,7 +19,7 @@ const AboutMe = () => {
               <h1>About Me</h1>
             </div>
             <h2 className="font-semibold">
-              MD SORIFUL HASAN – FULL STACK WEB DEVELOPER
+              MD SORIFUL HASAN – MERN STACK WEB DEVELOPER
             </h2>
             <div className="border-b border-gray-100"></div>
             <div className="text-sm text-gray-600 letter  leading-8 tracking-wide space-y-4">

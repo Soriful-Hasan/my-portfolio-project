@@ -147,7 +147,7 @@ const Navbar = () => {
         {/* Navbar End */}
         <div className="navbar-end">
           <button className="hover:bg-[#e65309] px-4 py-2 text-sm bg-black text-white rounded cursor-pointer">
-            <a href="/soriful-cv.pdf" download>
+            <a href="/Resume of Md Soriful Hasan.pdf" download>
               Download CV
             </a>
           </button>
