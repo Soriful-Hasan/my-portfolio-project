@@ -40,7 +40,7 @@ const Projects = () => {
       description:
         "MediEase is a full-stack web application designed to streamline the organization and participation of medical camps. Inspired by real-world healthcare management needs, the platform allows organizers to create and manage camps while participants can register, make secure payments, and submit feedback. With role-based dashboards, analytics, and a clean, responsive interface, MediEase enhances communication, efficiency, and transparency in organizing health events. Built with the MERN stack, Firebase Authentication, and Stripe, the app provides a complete end-to-end solution for medical camp administration and participation.",
 
-      image: "https://i.ibb.co/vCcLJm7Y/image.png",
+      image: "https://i.imgur.com/kJWiTVb.png",
     },
     {
       name: "Find It",
@@ -62,7 +62,7 @@ const Projects = () => {
         "Implementing role-based route protection to secure certain user actions.Handling image uploads and managing links through ImgBB.Structuring proper relationships between lost and found posts in the database.Managing asynchronous operations and form validations smoothly with React Hook Form.Ensuring responsive and consistent UI across different device sizes.",
       technology_stack:
         "This project uses React.js with Tailwind CSS for a fast, responsive frontend. The backend is powered by Express.js on Node.js, with data stored in MongoDB. Authentication is managed securely via Firebase Authentication, while forms use React Hook Form and DaisyUI for smooth validation and styling. Images are hosted externally using ImgBB for efficient delivery.",
-      image: "https://i.ibb.co/8LGZFCdY/image.png",
+      image: "https://i.imgur.com/GMocamo.png",
     },
     {
       name: "Find Mate",
